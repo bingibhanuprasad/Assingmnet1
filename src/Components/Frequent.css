@@ -1,0 +1,49 @@
+.frequent-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8; /* Light gray background */
+    padding: 40px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+  }
+  
+  .faq-left {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .faq-left h1 {
+    font-size: 28px;
+    color: #333; /* Dark color for heading */
+  }
+  
+  .faq-left p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .faq-right {
+    flex: 1;
+    max-width: 55%;
+  }
+  
+  .faq-box {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq-box h3 {
+    font-size: 18px;
+    color: #222;
+    margin-bottom: 5px;
+  }
+  
+  .faq-box p {
+    font-size: 14px;
+    color: #555;
+  }
+  

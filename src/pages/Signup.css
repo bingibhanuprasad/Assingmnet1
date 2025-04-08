@@ -1,0 +1,132 @@
+
+/* Container Styling */
+.container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+  
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  color: black;
+  padding: 15px;
+}
+
+/* Left and Right Sections */
+.left, .right {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 8px;
+  font-size: 20px;
+}
+
+/* Center Section */
+.center {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+  margin-top: 20px;
+}
+
+
+.kyc-nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  list-style: none;
+}
+
+.kyc-nav ul li {
+  text-align: center;
+}
+
+.kyc-nav ul li a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-weight: bold;
+}
+
+.step-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: gray;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.kyc-nav ul li a.active .step-number {
+  background-color: blue;
+}
+ 
+
+/* Aadhar KYC Section */
+#aadhar {
+ 
+  
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: left;
+ 
+  
+ 
+}
+
+#aadhar h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+ padding-right: 1150px;
+}
+
+#aadhar p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Aadhar Form Styling */
+.aadhar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.aadhar-form label {
+  font-weight: bold;
+  color: #444;
+  
+}
+
+.aadhar-form input {
+  width: 100%;
+  padding: 10px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: white;
+}
+
+.aadhar-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
